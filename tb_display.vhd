@@ -49,7 +49,6 @@ end component;
   signal dp : STD_LOGIC_VECTOR (7 downto 0);                  
   signal LED : STD_LOGIC_VECTOR(9 downto 0);
 
-  
 begin
 
   display_inst0: display port map ( 
