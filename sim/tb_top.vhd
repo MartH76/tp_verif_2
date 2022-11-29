@@ -76,7 +76,7 @@ clk <= not clk after 5 ns;
         start <= '1';
         wait for duration;
         start <= '0';
-   end;
+    end;
    
     procedure p1_pressed(
     duration: time) is
@@ -84,7 +84,7 @@ clk <= not clk after 5 ns;
         btn_p1 <= '1';
         wait for duration;
         btn_p1 <= '0';
-   end;
+    end;
    
     procedure p2_pressed(
     duration: time) is
@@ -92,7 +92,7 @@ clk <= not clk after 5 ns;
         btn_p2 <= '1';
         wait for duration;
         btn_p2 <= '0';
-   end;
+    end;
 
   begin
     
