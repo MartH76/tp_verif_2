@@ -66,8 +66,6 @@ begin
     LED => LED
 );
 
-
-
 clk <= not clk after 5 ns;
 
   stimulus: process
