@@ -1,0 +1,15 @@
+vcom +cover +acc -work LIB sources/rising_edge_detector.vhd
+vcom +cover +acc -work LIB sources/clk_gen.vhd
+vcom +cover +acc -work LIB sources/main_fsm.vhd
+vcom +cover +acc -work LIB sources/signed2unsigned.vhd
+vcom +cover +acc -work LIB sources/bin2bcd.vhd
+vcom +cover +acc -work LIB sources/led_display.vhd
+vcom +cover +acc -work LIB sources/display.vhd
+vcom +cover +acc -work LIB sources/top.vhd
+vcom +cover +acc -work LIB sim/tb_top.vhd
+
+vsim -t ns LIB.tb_top
+
+add log -r *
+
+run 500 us
