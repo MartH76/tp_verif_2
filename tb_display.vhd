@@ -101,11 +101,11 @@ clk <= not clk after 5 ns;
 	--PHASE DE JEU EN ATTENTE D'UNE ACTION DES GAMERZ
 	display_mode => '10';
 	wait for 1 s;
-	--AFFICHAGE DES RÉSULTATS
+	--AFFICHAGE DES RÃ‰SULTATS
 	display_mode => '11';
 	wait for 1 s;
-	--result_px : vecteur signé 1+10 bits. écart de temps en dizaine de ms par rapport à 10s.
-	--av=avant, ap=après, g=gagnant, p=perdant, ovf=overflow, p1=joueur1, p2=joueur2
+	--result_px : vecteur signÃ© 1+10 bits. Ã©cart de temps en dizaine de ms par rapport Ã  10s.
+	--av=avant, ap=aprÃ¨s, g=gagnant, p=perdant, ovf=overflow, p1=joueur1, p2=joueur2
 	
 	overflow_p1 => '0';
 	overflow_p2 => '0';
@@ -192,11 +192,11 @@ clk <= not clk after 5 ns;
 	--PHASE DE JEU EN ATTENTE D'UNE ACTION DES GAMERZ
 	display_mode => '10';
 	wait for 1 s;
-	--AFFICHAGE DES RÉSULTATS
+	--AFFICHAGE DES RÃ‰SULTATS
 	display_mode => '11';
 	wait for 1 s;
-	--result_px : vecteur signé 1+10 bits. écart de temps en dizaine de ms par rapport à 10s.
-	--av=avant, ap=après, g=gagnant, p=perdant, ovf=overflow, p1=joueur1, p2=joueur2
+	--result_px : vecteur signÃ© 1+10 bits. Ã©cart de temps en dizaine de ms par rapport Ã  10s.
+	--av=avant, ap=aprÃ¨s, g=gagnant, p=perdant, ovf=overflow, p1=joueur1, p2=joueur2
 	
 	overflow_p1 => '0';
 	overflow_p2 => '0';
